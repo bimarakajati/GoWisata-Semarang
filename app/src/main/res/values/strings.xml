@@ -1,0 +1,139 @@
+<resources>
+    <!--BASE-->
+    <string name="app_name">GoWisata Semarang</string>
+    <string name="app_description">Mau ke Semarang? Disini Tempatnya!</string>
+    <!--LOGIN-->
+    <string name="login">Masuk</string>
+    <string name="sign_in_to_continue">Masuk untuk melanjutkan</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="welcome_back">Selamat Datang Kembali!</string>
+    <string name="email">Masukkan email</string>
+    <!--SIGNUP-->
+    <string name="acc_ask">Belum punya akun?</string>
+    <string name="signup">Daftar</string>
+    <string name="sign_up_success_desc">Akun anda telah berhasil dibuat. Silahkan masuk kembali menggunakan akun baru anda</string>
+    <!--PASSWORD-->
+    <string name="password">Kata Sandi</string>
+    <string name="new_password">Kata Sandi Baru</string>
+    <string name="change_password">Ganti kata sandi</string>
+    <string name="confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="enter_your_password">Masukkan kata sandi</string>
+    <string name="enter_your_reset_code">Masukkan kode reset</string>
+    <string name="forgot_password">Lupa kata sandi</string>
+    <string name="forgot_password_desc">Silakan masukkan email anda di bawah ini untuk menerima instruksi reset kata sandi anda</string>
+    <string name="reset_password">Setel ulang kata sandi</string>
+    <string name="reset_password_desc">Kode reset telah dikirim ke email anda. Silakan masukkan kode dan buat kata sandi baru</string>
+    <!--RESET-->
+    <string name="reset_code">Kode Reset</string>
+    <string name="send_request">Kirim permintaan</string>
+    <!--SUCCESS-->
+    <string name="success">Berhasil!!</string>
+    <string name="success_desc">Anda telah berhasil mengubah kata sandi. Silakan gunakan kata sandi baru saat masuk</string>
+    <!--TITLE-->
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="alamat">Alamat</string>
+    <string name="back">back</string>
+
+    <string-array name="tempat_wisata">
+        <item>Kota Lama </item>
+        <item>Benteng Pendem</item>
+        <item>Klenteng Sam Poo Kong</item>
+        <item>Brown Canyon</item>
+        <item>Taman Bunga Celosia</item>
+        <item>Dusun Semilir</item>
+        <item>Museum Kereta Api</item>
+        <item>Lawang Sewu</item>
+        <item>Umbul Sidomukti</item>
+        <item>Kampung Pelangi</item>
+    </string-array>
+
+    <string-array name="alamat">
+        <item>Jl. Letjen Suprapto No.31</item>
+        <item>Bugisari, Lodoyong, Ambarawa</item>
+        <item>Bongsari, Semarang Barat</item>
+        <item>Rowosari, Tembalang</item>
+        <item>Jl. Candi Gedong Songo, Bandungan</item>
+        <item>Jl. Soekarno - Hatta No.49, Bawen</item>
+        <item>Jl. Stasiun No.1, Ambarawa</item>
+        <item>Jl. Pemuda, Sekayu</item>
+        <item>Desa Sidomukti, Bandungan</item>
+        <item>Jl. DR. Sutomo No.89, Randusari</item>
+    </string-array>
+
+    <string-array name="deskripsi">
+        <item>
+            Jejak peninggalan kolonial di Semarang dapat dijumpai di kawasan Kota Lama yang terletak di Jalan Letjen Suprapto, Tanjung Mas, Kecamatan Semarang Utara, Kota Semarang.
+            \n\nBerkunjung ke Kota Lama serasa di luar negeri. Bangunan di sana dibangun dengan nuansa Eropa yang pas dijadikan lokasi foto.
+            \n\nDi Kota Lama, pengunjung juga dapat bersantai di Taman Srigunting, membeli barang-barang antik, berkeliling dengan sepeda, atau berkunjung ke Galeri Semarang dan Gereja Blenduk.
+            \n\nFasilitas di Kota Lama yang tersedia, antara lain toilet, mushala, restoran, kafe, museum, dan juga penyewaan sepeda.
+        </item>
+        <item>
+            Benteng Pendem atau Benteng Fort Willem I merupakan bangunan tua peninggalan Belanda. Tempat ini pas untuk latar belakang foto.
+            \n\nBenteng dengan arsitektur Belanda yang instagramable ini terletak di Bugisari, Lodoyong, Kecamatan Ambarawa, Kabupaten Semarang.
+            \n\nSelain mengambil foto dengan latar keren dan eksotis, pengunjung juga bisa sekadar menikmati nuansa bangunan yang penuh sejarah ini.
+            \n\nUntuk mengunjungi benteng ini, pengunjung tidak akan dikenai tiket masuk alias gratis hanya perlu membayar tarif parkir bila membawa kendaraan. Pengunjung dapat berkunjung ke Benteng pukul 08.00-17.00 WIB.
+        </item>
+        <item>
+            Klenteng Sam Poo Kong salah satu situs sejarah tentang perkembangan Islam di Semarang yang disebarkan seorang penjelajah dari China bernama Laksamana Cheng Ho.
+            \n\nKlenteng Sam Poo Kong terletak di Jalan Simongan Raya nomor 129, Bongsari, Kecamatan Semarang Barat, Kota Semarang.
+            \n\nTidak hanya bernuansa Tionghoa, klenteng ini juga memiliki nuansa Islam dengan corak pada langit-langit berwarna hijau dan terdapat bedug.
+            \n\nKlenteng ini merupakan tempat ibadah cocok untuk wisata religi. Namun, tak jarang pengunjung datang untuk berburu foto.
+            \n\nKlenteng ini biasanya menjadi tempat digelarnya festival, seperti peringatan HUT Sam Poo Kong dan hari raya Imlek.
+            \n\nHarga tiket pada hari biasa adalah Rp 8.000 per orang dewasa dan Rp 5.000 per anak. Saat akhir pekan, harga tiket masuk adalah Rp 12.000 per orang dewasa dan Rp 8.000 per anak.
+            \n\nTiket masuk hanya untuk area wisata, untuk memasuki area ibadah pengunjung akan dikenai biaya tambahan.
+            \n\nTerdapat tiket terusan yang mencakup area ibadah seluruh area klenteng. Pada hari biasa, harganya Rp 28.000 per orang dewasa dan Rp 15.000 per anak. Sedangkan saat akhir pekan, harganya Rp 30.000 per orang dewasa dan Rp 15.000 per anak.
+            \n\nTerdapat paket wisata sejarah rombongan Rp 20.000 per orang (PAUD, TK, SD), Rp 35.000 per orang (SMP, SMA, Universitas, dan Instansi), dan Rp 35.000 per orang dengan minimal 10 orang dewasa.
+        </item>
+        <item>
+            Melihat pesona tebing curam seperti Grand Canyon di Amerika ternyata tak perlu jauh-jauh pergi. Semarang juga punya Brown Canyon yang tak kalah menarik dan indah.
+            \n\nTempat ini terletak di Rawosari, Tembalang, Kota Semarang. Dulunya, Brown Canyon adalah tempat galian pertambangan yang kini menjadi tempat wisata.
+            \n\nDengan pesona dari tebing-tebing tinggi, pesona kian menawan dipadu dengan kolam yang kerap dijadikan spot foto.
+            \n\nDengan latar pemandangan yang cantik dan keren, Brown Canyon Semarang cocok dijadikan spot foto keren dan instagramable ala Amerika.
+            \n\nBerburu foto keren di Brown Canyon Semarang, pengunjung tidak perlu membayar tiket masuk alias gratis.
+        </item>
+        <item>
+            Taman Bunga Celosia memiliki tiga area yang berada di kaki Gunung Ungaran, tepatnya terletak di Jalan Candi Gedong Songo, Beroken, Candi, Kecamatan Bandungan, Kabupaten Semarang.
+            \n\nMeski disebut taman bunga celosia, di taman ini juga terdapat bunga lain, seperti hebras, lavender, dan krisan.
+            \n\nTidak hanya kebun bunga yang bisa dijadikan spot foto. Di sini, ada pula berbagai spot foto menarik yang pastinya instagramable, seperti Rumah Hobbit, Balon Udara, Rural Japanese, White Marine Park, New Little Korea, Little Amsterdam, dan Taman Lampion.
+            \n\nUntuk mengunjungi Taman Bunga Celosia, pengunjung harus membayar tiket masuk Rp 20.000 per orang pada hari biasa dan Rp 25.000 per orang saat hari libur.
+            \n\nJam operasional Taman Bunga Celosia 2 adalah pukul 08.00-17.00 WIB. Namun Taman Bunga Celosia 1 dan 3 masih ditutup sementara.
+        </item>
+        <item>
+            Dusun Semilir Semarang memiliki arsitektur bangunan yang unik dan menawarkan spot foto instagramable.
+            \n\nPengunjung dapat bertandang ke tempat ini yang terletak di Jalan Soekarno Hatta Nomor 49, Ngampel, Bawen, Ngemplak, Kabupaten Semarang.
+            \n\nSpot-spot foto insagramable yang dapat ditemukan di Dusun Semilir, di antaranya Kandang Burung Raksasa, Owl Café, Alun-alun Eropa, dan Perosotan Warna-Warni.
+            \n\nSelain itu, juga terdapat studio foto yang menyediakan banyak kostum untuk digunakan berfoto-foto.
+            \n\nDusun Semilir buka setiap hari. Senin–Jumat pukul 10.00-20.00 WIB dan Sabtu–Minggu atau hari libur nasional adalah pukul 09.00-20.00 WIB.
+            \n\nPengunjung harus membayar tiket masuk Dusun Semilir pada hari biasa Rp20.000 per orang dan pada akhir pekan Rp 25.000.
+        </item>
+        <item>
+            Museum Kereta Api Ambarawa mulanya adalah stasiun kereta api yang beralih fungsi menjadi museum, Sehingga cocok untuk wisata edukasi seputar sejarah perkeretaapian.
+            \n\nMuseum ini terletak di Jalan Stasiun, Jalan Panjang Kidul No.1, Panjang Kidul, Panjang, Kecamatan Ambarawa, Kabupaten Semarang.
+            \n\nPengunjung juga dapat ikut tur perjalanan wisata dengan kereta api uap, berfoto-foto di spot keren, berbelanja suvenir, dan melihat koleksi di museum.
+            \n\nMuseum ini memiliki koleksi lokomotif uap, mulai dari seri B, C, D, sampai CC. Terdapat pula benda antik perkeretaapian, seperti mesin pembuat tiket penumpang zaman dahulu, telegraf, lonceng kereta, dan peluit petugas rel.
+            \n\nPengunjung bisa berfoto di spot instagramable dan menarik, mulai dari gerbong kereta api, rel kereta api, sampai halte.
+            \n\nPengunjung dikenakan tarif tiket masuk Museum Kereta Api Ambarawa sebesar Rp 10.000 per orang. Museum buka setiap hari pukul 08.00-17.00 WIB.
+        </item>
+        <item>
+            Lawang Sewu merupakan salah satu tempat wisata favorit yang terletak di Jalan Pemuda, Sekayu, Kecamatan Semarang Tengah, Kota Semarang.
+            \n\nLawang Sewu didirikan pada 27 Februari 1904. Dulunya, tempat ini disebut Het Hoofdkantoor van de Nederlandsch-Indische Spoorweg Maatscappij.
+            \n\nLawang Sewu memiliki arti seribu pintu. Namun jumlah sebenarnya hanya 928 pintu dengan 425 frame dan 114 ruang kerja, tidak termasuk ruang meeting.
+            \n\nMuseum ini menyimpan berbagai koleksi perkeretaapian di Indonesia dari masa ke masa. Lawang Sewu juga dapat disewa untuk berbagai kegiatan, seperti pameran, pemotretan, syuting, pesta pernikahan, pentas seni, bazar, dan workshop.
+            \n\nOperasional museum ini dapat dikunjungi setiap hari pukul 07.00-21.00 WIB. Harga tiketnya Rp 10.000 per orang dewasa dan mahasiswa, Rp 5.000 per anak dan pelajar, dan Rp 10.000 per wisatawan mancanegara.
+        </item>
+        <item>
+            Umbul Sidomukti yang berupa resort dan wisata alam di area pegunungan ini terletak di Desa Sidomukti, Kecamatan Bandungan, Kabupaten Semarang.
+            \n\nDi sini, pengunjung dapat menikmati pemandangan hijau pegunungan berpadu dengan langit biru luas dan panorama indah Rawa Pening.
+            \n\nSuasana yang ditawarkan dari Umbul Sidomukti begitu tenang dan menyejukkan, sehingga sangat cocok untuk dikunjungi bersama pasangan.
+            \n\nSelain menawarkan pemandangan indah, di sini juga tersedia wahana permainan yang memacu adrenalin, seperti flying fox, ATV, archery, berkuda, dan lainnya.
+            \n\nResort Umbul Sidomukti menyediakan kedai kopi, kolam renang, sampai vila dengan model rumah kecil yang tenang dan nyaman.
+        </item>
+        <item>
+            Kampung Pelangi dulunya adalah kampung kumuh yang diubah menjadi kampung yang penuh warna dan sangat menarik kunjungan wisata.
+            \n\nDi sini, terdapat sekitar 300 rumah yang di cat penuh warna. Lokasinya ada di Randusari, Kecamatan Semarang Selatan, Kota Semarang.
+            \n\nKampung ini penuh dengan spot instagramable dengan mural-mural dan beragam gambar yang merupakan hasil karya warga setempat.
+            \n\nMasuk ke Kampung Pelangi gratis. Pengunjung juga dapat menikmati kuliner di kampung ini dan membeli suvenir khas.
+        </item>
+    </string-array>
+</resources>
