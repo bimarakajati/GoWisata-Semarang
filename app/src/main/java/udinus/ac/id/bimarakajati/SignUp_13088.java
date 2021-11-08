@@ -26,7 +26,7 @@ public class SignUp_13088 extends AppCompatActivity {
         signUpPassword = findViewById(R.id.edt_txt_password);
     }
 
-    public void daftar (View view) {
+    public void daftar(View view) {
         // Validasi input email dan password kosong
         if (TextUtils.isEmpty(signUpEmail.getText().toString().trim()) && TextUtils.isEmpty(signUpPassword.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Email dan password tidak boleh kosong!", Toast.LENGTH_LONG).show();
@@ -44,13 +44,17 @@ public class SignUp_13088 extends AppCompatActivity {
             else if (TextUtils.isEmpty(signUpPassword.getText().toString().trim())) {
                 Toast.makeText(view.getContext(), "Password tidak boleh kosong!", Toast.LENGTH_LONG).show();
             } else {
-                Intent i = new Intent(SignUp_13088.this, SignUpSuccess_13088.class);
-                startActivity(i);
+                if (signUpPassword.getText().length() < 6) {
+                    Toast.makeText(view.getContext(), "Password minimal 6!", Toast.LENGTH_LONG).show();
+                } else {
+                    Intent i = new Intent(SignUp_13088.this, SignUpSuccess_13088.class);
+                    startActivity(i);
+                }
             }
         }
     }
 
-    public static boolean isValidEmail (CharSequence email) {
+    public static boolean isValidEmail(CharSequence email) {
         return (Patterns.EMAIL_ADDRESS.matcher(email).matches());
     }
 }

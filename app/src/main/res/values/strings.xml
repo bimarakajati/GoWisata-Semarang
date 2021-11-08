@@ -34,7 +34,7 @@
     <string name="description">Deskripsi</string>
     <string name="alamat">Alamat</string>
     <string name="back">back</string>
-
+    <!--NAMA TEMPAT WISATA-->
     <string-array name="tempat_wisata">
         <item>Kota Lama </item>
         <item>Benteng Pendem</item>
@@ -47,7 +47,7 @@
         <item>Umbul Sidomukti</item>
         <item>Kampung Pelangi</item>
     </string-array>
-
+    <!--ALAMAT TEMPAT WISATA-->
     <string-array name="alamat">
         <item>Jl. Letjen Suprapto No.31</item>
         <item>Bugisari, Lodoyong, Ambarawa</item>
@@ -60,7 +60,7 @@
         <item>Desa Sidomukti, Bandungan</item>
         <item>Jl. DR. Sutomo No.89, Randusari</item>
     </string-array>
-
+    <!--DESKRIPSI TEMPAT WISATA-->
     <string-array name="deskripsi">
         <item>
             Jejak peninggalan kolonial di Semarang dapat dijumpai di kawasan Kota Lama yang terletak di Jalan Letjen Suprapto, Tanjung Mas, Kecamatan Semarang Utara, Kota Semarang.

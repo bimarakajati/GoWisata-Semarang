@@ -1,7 +1,9 @@
 package udinus.ac.id.bimarakajati;
 
 import android.content.Intent;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
@@ -29,12 +31,12 @@ public class WelcomeBack_13088 extends AppCompatActivity {
         editTextPassword = findViewById(R.id.edt_txt_password);
     }
 
-    public void clickForgot (View view) {
+    public void clickForgot(View view) {
         Intent i = new Intent(WelcomeBack_13088.this, ForgotPassword_13088.class);
         startActivity(i);
     }
 
-    public void postLogin (View view) {
+    public void postLogin(View view) {
         // Validasi input email dan password kosong
         if (TextUtils.isEmpty(editTextEmail.getText().toString().trim()) && TextUtils.isEmpty(editTextPassword.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Email dan password tidak boleh kosong!", Toast.LENGTH_LONG).show();
@@ -52,13 +54,17 @@ public class WelcomeBack_13088 extends AppCompatActivity {
             else if (TextUtils.isEmpty(editTextPassword.getText().toString().trim())) {
                 Toast.makeText(view.getContext(), "Password tidak boleh kosong!", Toast.LENGTH_LONG).show();
             } else {
-                Intent i = new Intent(WelcomeBack_13088.this, WisataTempat_13088.class);
-                startActivity(i);
+                if (editTextPassword.getText().length() < 6) {
+                    Toast.makeText(view.getContext(), "Password minimal 6!", Toast.LENGTH_LONG).show();
+                } else {
+                    Intent i = new Intent(WelcomeBack_13088.this, WisataTempat_13088.class);
+                    startActivity(i);
+                }
             }
         }
     }
 
-    public static boolean isValidEmail (CharSequence email) {
+    public static boolean isValidEmail(CharSequence email) {
         return (Patterns.EMAIL_ADDRESS.matcher(email).matches());
     }
 }

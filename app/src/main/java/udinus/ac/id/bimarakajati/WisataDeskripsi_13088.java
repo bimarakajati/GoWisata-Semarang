@@ -1,7 +1,9 @@
 package udinus.ac.id.bimarakajati;
 
 import android.content.Intent;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -34,13 +36,13 @@ public class WisataDeskripsi_13088 extends AppCompatActivity {
     }
 
     private void getData() {
-        if(getIntent().hasExtra("myImage") && getIntent().hasExtra("data1") &&
-        getIntent().hasExtra("data2") && getIntent().hasExtra("data3")) {
+        if (getIntent().hasExtra("myImage") && getIntent().hasExtra("data1") &&
+                getIntent().hasExtra("data2") && getIntent().hasExtra("data3")) {
             data1 = getIntent().getStringExtra("data1");
             data2 = getIntent().getStringExtra("data2");
             data3 = getIntent().getStringExtra("data3");
             myImage = getIntent().getIntExtra("myImage", 1);
-        }else {
+        } else {
             Toast.makeText(this, "No Data.", Toast.LENGTH_SHORT).show();
         }
     }

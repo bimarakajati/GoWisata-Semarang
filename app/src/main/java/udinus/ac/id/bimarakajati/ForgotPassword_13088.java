@@ -1,7 +1,9 @@
 package udinus.ac.id.bimarakajati;
 
 import android.content.Intent;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
@@ -23,7 +25,7 @@ public class ForgotPassword_13088 extends AppCompatActivity {
         editTextEmail = findViewById(R.id.edt_txt_email);
     }
 
-    public void postSendRequest (View view) {
+    public void postSendRequest(View view) {
         // Validasi email kosong
         if (TextUtils.isEmpty(editTextEmail.getText().toString().trim())) {
             Toast.makeText(view.getContext(), "Email tidak boleh kosong!", Toast.LENGTH_LONG).show();
@@ -40,7 +42,7 @@ public class ForgotPassword_13088 extends AppCompatActivity {
     }
 
     // Email validation
-    public static boolean isValidEmail (CharSequence email) {
+    public static boolean isValidEmail(CharSequence email) {
         return (Patterns.EMAIL_ADDRESS.matcher(email).matches());
     }
 }
